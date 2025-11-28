@@ -11,33 +11,44 @@ Project Member: Huang QiuYue, Student ID: 20232047
 Contributions (Including Coding / Deployment / Git Operations):
 
 Chen Han (Team Leader) – Student ID: 20232079 (90% workload)
-Project Architecture and Foundation
-Initialized the backend project structure using vanilla JavaScript and Express.
-Configured core dependencies (Express, sqlite3, jsonwebtoken, yup, multer, cors, dotenv).
-Designed the database schema with raw SQL tables for User, News, Comment, and Vote.
-Built basic API routing and implemented environment variable management via .env.
-Core Function Development
-Backend: Developed all RESTful API endpoints including user authentication, news CRUD (with role-based access), voting logic (with optional comment and image upload), and admin controls (user promotion, content deletion).
-Implemented JWT-based authentication middleware and role authorization (READER, MEMBER, ADMIN).
-Handled file uploads using Multer and served static images from the uploads/ directory.
-Deployment and Git Operations
-Set up local deployment instructions (npm start) without Docker or VMs.
-Managed the GitHub repository (branch protection, PR reviews, conflict resolution).
-Wrote comprehensive README documentation and conducted end-to-end testing.
-Global Optimization & Auxiliary Functions
-Unified error response format across all routes.
-Implemented input validation using Yup to replace DTO-like structures.
-Added search (by title/content) and status filtering (fake/non-fake) for news listings.
+1. Project Architecture and Foundation
+Frontend: Initialized a Vue 3 + TypeScript project using Vite; configured core dependencies (Vue Router, Pinia, Axios); designed global type definitions (e.g., News, Comment, Vote interfaces); implemented basic routing and layout components (App.vue, Layout.vue).
+Backend: Set up the backend project structure using vanilla JavaScript and Express; configured essential dependencies (Express, sqlite3, jsonwebtoken, yup, multer, cors, dotenv); designed the database schema using raw SQL for tables User, News, Comment, and Vote; implemented API routing and environment variable management via .env.
+2. Core Function Development
+Frontend:
+Led development of the entire news module: implemented NewsList.vue with pagination and NewsDetailView.vue for detailed rendering;
+Built state management (newsStore.ts) and encapsulated API services (newsService.ts);
+Implemented interactive features such as pull-to-refresh, filtering, and loading indicators.
+Backend:
+Developed all RESTful API endpoints, including:
+User authentication (registration/login with JWT);
+News CRUD operations with role-based access control;
+Voting functionality (submit “credible”/“not credible” votes with optional comments and image uploads);
+Admin controls (promote users to MEMBER, delete news or comments).
+Implemented JWT-based authentication middleware and role authorization (READER, MEMBER, ADMIN);
+Handled image uploads using Multer and served static files from the uploads/ directory.
+3. Deployment and Git Operations
+Frontend: Configured Vercel deployment (optimized vite.config.ts, set build commands), and deployed the live site.
+Backend: Provided clear local deployment instructions (npm start); no Docker, VMs, or containerization used, fully compliant with course requirements.
+Collaboration: Created and managed the GitHub repository; set up branch protection rules; resolved merge conflicts and dependency issues; merged team contributions; wrote comprehensive documentation; and conducted end-to-end testing and final launch.
+4. Global Optimization & Auxiliary Features
+Frontend: Enforced consistent code style, fixed TypeScript errors, optimized page load performance, and ensured cross-browser compatibility.
+Backend: Standardized error responses across all routes ({ success: false, status, message }); implemented input validation using Yup (replacing DTO-like structures); added search (by title/content) and status filtering (“fake”/“not fake”) for news listings.
+5. Additional Contributions
+Assisted in comment module design and integration;
+Supported voting interaction logic implementation;
+Contributed to UI/UX consistency and auxiliary features (e.g., pagination, input sanitization).
 
 
-Project Member: Li YiHeng – Student ID: 20232047 (5% workload)
-Developed the comment submission and retrieval logic in votes.controller.js.
-Assisted in implementing auxiliary features such as pagination and input sanitization.
+Li YiHeng – Student ID: 20232047 (5% workload)
+Helped implement comment submission and paginated retrieval logic in votes.controller.js;
+Assisted in developing auxiliary features such as input sanitization and pagination.
 
 
-Project Member: Huang QiuYue – Student ID: 20232047 (5% workload)
-Implemented the voting interaction logic (isFake true/false) and real-time vote count aggregation.
-Supported frontend-backend coordination for UI consistency and loading/error states.
+Huang QiuYue – Student ID: 20232047 (5% workload)
+Supported frontend-backend coordination to ensure consistent UI behavior for loading states and error handling;
+Contributed to user experience optimizations, including interactive feedback and visual refinements.
+
 
 
 Project Overview:
