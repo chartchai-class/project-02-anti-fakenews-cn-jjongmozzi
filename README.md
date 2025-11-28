@@ -2,8 +2,10 @@ Social Anti-Fake News Platform
 
 Group Name：project-02-anti-fakenews-cn-jjongmozzi
 
-project leader: Chen Han    StudentID:20232079
-github username: chenhan20232079
+our group：
+project leader: Chen Han      StudentID:20232079      github username: chenhan20232079
+Project Member:Li YiHeng      Student ID:20232047
+Project Member:Huang QiuYue   Student ID；20232047
 
 Contributions (Including Coding/Deployment/Git Operations)：
 
@@ -53,8 +55,8 @@ This project is a social anti-fake news platform that integrates news browsing, 
 
 Technology Stack：
 Frontend:Core Framework: Vue 3 (Composition API); State Management: Pinia; Routing: Vue Router; Type Checking: TypeScript; HTTP Client: Axios; Build Tool: Vite
-Backend:Core Framework: Express; ORM: Prisma; Authentication: JWT; Database: PostgreSQL; Deployment: Docker; Language: TypeScript
-Deployment:Frontend: Vercel; Backend: Docker/VM; Code Hosting: GitHub
+Backend:Core Framework: Express; ORM: Prisma; Authentication: JWT; Database: MySQL; Deployment: Docker; Language: TypeScript
+Deployment:Frontend: Vercel; Backend: Docker; Code Hosting: GitHub
 
 Core Features：
 News Module: News list display, detail viewing, category filtering
