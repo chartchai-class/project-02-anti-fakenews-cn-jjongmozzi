@@ -34,12 +34,12 @@ Handled cross-browser compatibility and global error handling (frontend: toast p
 Implemented auxiliary features (news search by title/detail/reporter, status filtering for fake/non-fake news)
 
 
-Project Member:Li YiHeng  Student ID:20232047(5% workload)
+Project Member:Li YiHeng  Student ID:20232047(5% workload):
 5.Comment Function Development
 6.Auxiliary Function Implementation
 
 
-Project Member:Huang QiuYue  Student ID；20232047(5% workload)
+Project Member:Huang QiuYue  Student ID；20232047(5% workload):
 7.Voting and Interaction Function Development
 8.UI and Experience Optimization
 
