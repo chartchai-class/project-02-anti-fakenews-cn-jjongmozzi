@@ -2,7 +2,7 @@ Social Anti-Fake News Platform
 
 Group Name：project-02-anti-fakenews-cn-jjongmozzi
 
-project leader: Chen Han  20232079
+project leader: Chen Han    StudentID:20232079
 github username: chenhan20232079
 
 Contributions (Including Coding/Deployment/Git Operations)：
