@@ -1,4 +1,4 @@
-Social Anti-Fake News Platform
+Social Anti-Fake News Platform(this is the second half of the project,backend) the repository url of frontend is provided below
 
 Group Name: project-02-anti-fakenews-cn-jjongmozzi
 
